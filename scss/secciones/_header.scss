@@ -1,0 +1,21 @@
+.header_index {
+    border: solid white 1px;
+    ul{
+        display: flex;
+        list-style: none;
+    }
+   
+    a{
+        color: white;
+        display: flex;
+        width: 150px;
+        margin: 20px;
+        padding: 5px;
+        border: solid white 1px;
+        justify-content: center;
+        color: white;
+        
+    }
+   
+
+}
