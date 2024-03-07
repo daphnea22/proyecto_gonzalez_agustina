@@ -1,4 +1,4 @@
-.header_index {
+.header4 {
     border: solid white 1px;
     nav {
         display: flex;
@@ -25,11 +25,13 @@
         &:hover{
             color: $grisnav;
         }
-
         
     }
 
-   
+    .logochico {
+        width: 150px;
+
+    }
    
 
 }

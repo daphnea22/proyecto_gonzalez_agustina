@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black; }
+  background-color: black;
+  font-family: "Nunito", sans-serif; }
 
 .header_index {
   border: solid white 1px; }
@@ -16,7 +18,7 @@
     list-style: none; }
   .header_index a {
     font-size: 25px;
-    color: white;
+    color: #fffcfc;
     display: flex;
     width: 150px;
     margin: 20px;
@@ -24,4 +26,28 @@
     justify-content: center;
     color: white; }
     .header_index a:hover {
-      color: grey; }
+      color: #6b6b6b; }
+
+.header4 {
+  border: solid white 1px; }
+  .header4 nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 70px; }
+  .header4 ul {
+    display: flex;
+    list-style: none; }
+  .header4 a {
+    font-size: 25px;
+    color: #fffcfc;
+    display: flex;
+    width: 150px;
+    margin: 20px;
+    padding: 5px;
+    justify-content: center;
+    color: white; }
+    .header4 a:hover {
+      color: #6b6b6b; }
+  .header4 .logochico {
+    width: 150px; }
