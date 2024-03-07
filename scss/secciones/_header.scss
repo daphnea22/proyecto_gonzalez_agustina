@@ -1,19 +1,30 @@
 .header_index {
     border: solid white 1px;
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        margin: 70px
+    }
+
     ul{
         display: flex;
         list-style: none;
     }
    
     a{
+
+        font-size: 25px;
         color: white;
         display: flex;
         width: 150px;
         margin: 20px;
         padding: 5px;
-        border: solid white 1px;
         justify-content: center;
         color: white;
+        &:hover{
+            color: grey;
+        }
         
     }
    

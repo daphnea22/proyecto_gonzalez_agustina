@@ -6,13 +6,22 @@
 
 .header_index {
   border: solid white 1px; }
+  .header_index nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 70px; }
   .header_index ul {
     display: flex;
     list-style: none; }
   .header_index a {
+    font-size: 25px;
+    color: white;
     display: flex;
     width: 150px;
     margin: 20px;
     padding: 5px;
-    border: solid white 1px;
-    justify-content: center; }
+    justify-content: center;
+    color: white; }
+    .header_index a:hover {
+      color: grey; }
