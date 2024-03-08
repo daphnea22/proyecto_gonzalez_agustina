@@ -1,0 +1,33 @@
+.mainabout{
+     h1{ 
+        color: $grish1;
+        font-size: 50px;
+        text-align:left;
+        margin: 30px 130px 20px 130px;
+
+     }
+
+     .ping{
+        color: $grish2;
+        font-size: 25px;
+        text-align: center;
+        padding: 70px;
+        margin: 50px;
+        &:hover{
+            color: white;
+        }
+
+     }
+
+     .pesp{
+        color: $grish2;
+        font-size: 25px;
+        text-align: center;
+        padding: 70px;
+        margin: 50px;
+        &:hover{
+            color: white;
+        }
+
+     }
+}

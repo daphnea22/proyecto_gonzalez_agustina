@@ -32,29 +32,30 @@
   .header_index a:hover {
     color: #6b6b6b; }
 
-.header4 {
-  border: solid white 1px; }
-  .header4 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-  .header4 ul {
-    display: flex;
-    list-style: none; }
-  .header4 a {
-    font-size: 25px;
-    color: #fffcfc;
-    text-decoration: none;
-    display: flex;
-    width: 150px;
-    margin: 20px;
-    padding: 5px;
-    justify-content: center;
-    color: white; }
-    .header4 a:hover {
-      color: #6b6b6b; }
-  .header4 .logochico {
-    width: 150px; }
+.header4 nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.header4 ul {
+  display: flex;
+  list-style: none; }
+
+.header4 a {
+  font-size: 25px;
+  color: #fffcfc;
+  text-decoration: none;
+  display: flex;
+  width: 150px;
+  margin: 20px;
+  padding: 5px;
+  justify-content: center;
+  color: white; }
+  .header4 a:hover {
+    color: #6b6b6b; }
+
+.header4 .logochico {
+  width: 150px; }
 
 .main_index {
   display: flex;
@@ -63,3 +64,27 @@
 
 .logogrande {
   width: 690px; }
+
+.mainabout h1 {
+  color: #575555;
+  font-size: 50px;
+  text-align: left;
+  margin: 30px 130px 20px 130px; }
+
+.mainabout .ping {
+  color: #969696;
+  font-size: 25px;
+  text-align: center;
+  padding: 70px;
+  margin: 50px; }
+  .mainabout .ping:hover {
+    color: white; }
+
+.mainabout .pesp {
+  color: #969696;
+  font-size: 25px;
+  text-align: center;
+  padding: 70px;
+  margin: 50px; }
+  .mainabout .pesp:hover {
+    color: white; }
