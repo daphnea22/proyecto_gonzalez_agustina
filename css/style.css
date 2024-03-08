@@ -37,11 +37,11 @@
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.header4 ul {
+ul {
   display: flex;
   list-style: none; }
 
-.header4 a {
+a {
   font-size: 25px;
   color: #fffcfc;
   text-decoration: none;
@@ -51,11 +51,19 @@
   padding: 5px;
   justify-content: center;
   color: white; }
-  .header4 a:hover {
+  a:hover {
     color: #6b6b6b; }
 
-.header4 .logochico {
+.logochico {
   width: 150px; }
+
+@media (max-width: 949px) {
+  .header4 nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    align-items: center; } }
 
 .main_index {
   display: flex;
@@ -74,7 +82,7 @@
 .mainabout .ping {
   color: #969696;
   font-size: 25px;
-  text-align: center;
+  text-align: justify;
   padding: 70px;
   margin: 50px; }
   .mainabout .ping:hover {
@@ -83,8 +91,24 @@
 .mainabout .pesp {
   color: #969696;
   font-size: 25px;
-  text-align: center;
+  text-align: justify;
   padding: 70px;
   margin: 50px; }
   .mainabout .pesp:hover {
     color: white; }
+
+@media (max-width: 600px) {
+  .mainabout .ping {
+    color: #969696;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px; }
+  .mainabout .pesp {
+    color: #969696;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px; }
+  .mainabout h1 {
+    text-align: center; } }

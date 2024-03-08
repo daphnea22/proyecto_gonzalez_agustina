@@ -6,6 +6,10 @@
        
     }
 
+    }
+
+    
+
     ul{
         display: flex;
         list-style: none;
@@ -34,7 +38,16 @@
     }
    
 
-}
+    @media (max-width: 949px){
+        .header4 nav{
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;
+            flex-direction: column-reverse;
+            align-items: center;
+
+        }
+    }
 
 
 
