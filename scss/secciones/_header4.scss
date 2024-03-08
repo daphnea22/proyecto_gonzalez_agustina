@@ -4,7 +4,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around; 
-        margin: 70px
+       
     }
 
     ul{
@@ -16,6 +16,7 @@
 
         font-size: 25px;
         color: $blanconav;
+        text-decoration: none;
         display: flex;
         width: 150px;
         margin: 20px;
@@ -35,3 +36,6 @@
    
 
 }
+
+
+

@@ -1,21 +1,25 @@
 .header_index {
-    border: solid white 1px;
     nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around; 
-        margin: 70px
+        padding: 20px;
     }
 
     ul{
         display: flex;
         list-style: none;
     }
+
+    li {
+        display: flex; 
+    }
    
     a{
 
         font-size: 25px;
         color: $blanconav;
+        text-decoration: none;
         display: flex;
         width: 150px;
         margin: 20px;
@@ -33,3 +37,5 @@
    
 
 }
+
+

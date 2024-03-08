@@ -6,41 +6,45 @@
   background-color: black;
   font-family: "Nunito", sans-serif; }
 
-.header_index {
-  border: solid white 1px; }
-  .header_index nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 70px; }
-  .header_index ul {
-    display: flex;
-    list-style: none; }
-  .header_index a {
-    font-size: 25px;
-    color: #fffcfc;
-    display: flex;
-    width: 150px;
-    margin: 20px;
-    padding: 5px;
-    justify-content: center;
-    color: white; }
-    .header_index a:hover {
-      color: #6b6b6b; }
+.header_index nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px; }
+
+.header_index ul {
+  display: flex;
+  list-style: none; }
+
+.header_index li {
+  display: flex; }
+
+.header_index a {
+  font-size: 25px;
+  color: #fffcfc;
+  text-decoration: none;
+  display: flex;
+  width: 150px;
+  margin: 20px;
+  padding: 5px;
+  justify-content: center;
+  color: white; }
+  .header_index a:hover {
+    color: #6b6b6b; }
 
 .header4 {
   border: solid white 1px; }
   .header4 nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 70px; }
+    justify-content: space-around; }
   .header4 ul {
     display: flex;
     list-style: none; }
   .header4 a {
     font-size: 25px;
     color: #fffcfc;
+    text-decoration: none;
     display: flex;
     width: 150px;
     margin: 20px;
@@ -51,3 +55,11 @@
       color: #6b6b6b; }
   .header4 .logochico {
     width: 150px; }
+
+.main_index {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.logogrande {
+  width: 690px; }
