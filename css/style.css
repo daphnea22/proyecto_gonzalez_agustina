@@ -112,3 +112,57 @@ a {
     margin: 10px; }
   .mainabout h1 {
     text-align: center; } }
+
+.mainreleases .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "img12024 img22023 img12023 img32022" "img22022 img12022 img22021 img12021" "img42020 img32020 img22020 img12020" "img42029 img32019 img22019 img12019"; }
+
+.mainreleases .img12019 {
+  grid-area: img12019; }
+
+.mainreleases .img22019 {
+  grid-area: img22019; }
+
+.mainreleases .img32019 {
+  grid-area: img32019; }
+
+.mainreleases .img42029 {
+  grid-area: img42029; }
+
+.mainreleases .img12020 {
+  grid-area: img12020; }
+
+.mainreleases .img22020 {
+  grid-area: img22020; }
+
+.mainreleases .img32020 {
+  grid-area: img32020; }
+
+.mainreleases .img42020 {
+  grid-area: img42020; }
+
+.mainreleases .img12021 {
+  grid-area: img12021; }
+
+.mainreleases .img22021 {
+  grid-area: img22021; }
+
+.mainreleases .img12022 {
+  grid-area: img12022; }
+
+.mainreleases .img22022 {
+  grid-area: img22022; }
+
+.mainreleases .img32022 {
+  grid-area: img32022; }
+
+.mainreleases .img12023 {
+  grid-area: img12023; }
+
+.mainreleases .img22023 {
+  grid-area: img22023; }
+
+.mainreleases .img12024 {
+  grid-area: img12024; }
