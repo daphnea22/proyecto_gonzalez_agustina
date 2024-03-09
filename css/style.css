@@ -113,60 +113,62 @@ a {
   .mainabout h1 {
     text-align: center; } }
 
-.mainreleases h1 {
-  color: #575555;
-  font-size: 40px;
-  text-align: left;
-  margin: 30px 130px 20px 130px; }
-
-.mainreleases h2 {
-  color: white;
-  text-align: center;
-  margin: 20px;
-  padding: 20px; }
-
-.mainreleases .releases2019 {
-  margin: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "img12029 img22029 img32029 img42029";
-  justify-items: center; }
-
-.mainreleases .img12029 {
-  grid-area: img12029;
-  width: auto; }
-  .mainreleases .img12029 h3 {
-    color: azure;
-    text-align: center; }
-
-.mainreleases .img22029 {
-  grid-area: img22029;
-  width: auto; }
-  .mainreleases .img22029 h3 {
-    color: azure;
-    text-align: center; }
-
-.mainreleases .img32029 {
-  grid-area: img32029;
-  width: auto; }
-  .mainreleases .img32029 h3 {
-    color: azure;
-    text-align: center; }
-
-.mainreleases .img42029 {
-  grid-area: img42029;
-  width: auto; }
-  .mainreleases .img42029 h3 {
-    color: azure;
-    text-align: center; }
-
-.mainreleases .releases2019 a {
-  width: 300px;
-  height: 300px; }
-
-.mainreleases .releases2019 a img {
-  width: auto; }
+.mainreleases {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; }
+  .mainreleases h1 {
+    color: #575555;
+    font-size: 40px;
+    text-align: left;
+    margin: 30px 130px 20px 130px; }
+  .mainreleases h2 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px; }
+  .mainreleases .releases2019 {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "img12029 img22029 img32029 img42029";
+    justify-items: center; }
+  @media (max-width: 1355px) {
+    .mainreleases .releases2019 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "img12029 img22029 img32029 img42029"; } }
+  .mainreleases .img12029 {
+    grid-area: img12029;
+    width: auto; }
+    .mainreleases .img12029 h3 {
+      color: azure;
+      text-align: center; }
+  .mainreleases .img22029 {
+    grid-area: img22029;
+    width: auto; }
+    .mainreleases .img22029 h3 {
+      color: azure;
+      text-align: center; }
+  .mainreleases .img32029 {
+    grid-area: img32029;
+    width: auto; }
+    .mainreleases .img32029 h3 {
+      color: azure;
+      text-align: center; }
+  .mainreleases .img42029 {
+    grid-area: img42029;
+    width: auto; }
+    .mainreleases .img42029 h3 {
+      color: azure;
+      text-align: center; }
+  .mainreleases .releases2019 a {
+    width: 300px;
+    height: 300px; }
+  .mainreleases .releases2019 a img {
+    width: auto; }
 
 .mainreleases .variusart {
   display: flex;

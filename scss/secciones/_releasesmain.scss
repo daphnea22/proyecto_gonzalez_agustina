@@ -1,5 +1,9 @@
 .mainreleases {
 
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
     h1{
         color: $grish1;
         font-size: 40px;
@@ -25,6 +29,20 @@
               "img12029 img22029 img32029 img42029";
               justify-items: center;
           }
+
+
+@media (max-width: 1355px){
+.releases2019 {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas:
+              "img12029 img22029 img32029 img42029";
+            }
+
+}
+
+          
           
           .img12029 {
                      grid-area: img12029; 
@@ -100,3 +118,8 @@
     }
 
 }
+
+
+// 1355
+
+
