@@ -134,12 +134,6 @@ a {
     grid-template-rows: 1fr;
     grid-template-areas: "img12029 img22029 img32029 img42029";
     justify-items: center; }
-  @media (max-width: 1355px) {
-    .mainreleases .releases2019 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      grid-template-areas: "img12029 img22029 img32029 img42029"; } }
   .mainreleases .img12029 {
     grid-area: img12029;
     width: auto; }
@@ -183,3 +177,14 @@ a {
     width: 500px; }
     .mainreleases .variusart img:hover {
       border: solid grey 10px; }
+
+@media (max-width: 500px) {
+  .mainreleases h1 {
+    font-size: 30px;
+    text-align: center; }
+  .mainreleases .variusart {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; }
+  .mainreleases .variusart img {
+    width: 300px; } }
