@@ -73,29 +73,29 @@ a {
 .logogrande {
   width: 690px; }
 
-.mainabout h1 {
-  color: #575555;
-  font-size: 50px;
-  text-align: left;
-  margin: 30px 130px 20px 130px; }
-
-.mainabout .ping {
-  color: #969696;
-  font-size: 25px;
-  text-align: justify;
-  padding: 70px;
-  margin: 50px; }
-  .mainabout .ping:hover {
-    color: white; }
-
-.mainabout .pesp {
-  color: #969696;
-  font-size: 25px;
-  text-align: justify;
-  padding: 70px;
-  margin: 50px; }
-  .mainabout .pesp:hover {
-    color: white; }
+.mainabout {
+  border: solid white; }
+  .mainabout h1 {
+    color: #575555;
+    font-size: 50px;
+    text-align: left;
+    margin: 30px 130px 20px 130px; }
+  .mainabout .ping {
+    color: #969696;
+    font-size: 25px;
+    text-align: justify;
+    padding: 70px;
+    margin: 50px; }
+    .mainabout .ping:hover {
+      color: white; }
+  .mainabout .pesp {
+    color: #969696;
+    font-size: 25px;
+    text-align: justify;
+    padding: 70px;
+    margin: 50px; }
+    .mainabout .pesp:hover {
+      color: white; }
 
 @media (max-width: 600px) {
   .mainabout .ping {
@@ -112,3 +112,82 @@ a {
     margin: 10px; }
   .mainabout h1 {
     text-align: center; } }
+
+.mainreleases {
+  border: solid white; }
+  .mainreleases h1 {
+    color: #575555;
+    font-size: 50px;
+    text-align: left;
+    margin: 30px 130px 20px 130px;
+    border: solid white; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "img12024 img22023 img12023 img32022" "img22022 img12022 img22021 img12021" "img42020 img32020 img22020 img12020" "img42029 img32019 img22019 img12019"; }
+
+.img12019 {
+  grid-area: img12019; }
+
+.img22019 {
+  grid-area: img22019; }
+
+.img32019 {
+  grid-area: img32019; }
+
+.img42029 {
+  grid-area: img42029; }
+
+.img12020 {
+  grid-area: img12020; }
+
+.img22020 {
+  grid-area: img22020; }
+
+.img32020 {
+  grid-area: img32020; }
+
+.img42020 {
+  grid-area: img42020; }
+
+.img12021 {
+  grid-area: img12021; }
+
+.img22021 {
+  grid-area: img22021; }
+
+.img12022 {
+  grid-area: img12022; }
+
+.img22022 {
+  grid-area: img22022; }
+
+.img32022 {
+  grid-area: img32022; }
+
+.img12023 {
+  grid-area: img12023; }
+
+.img22023 {
+  grid-area: img22023; }
+
+.img12024 {
+  grid-area: img12024; }
+
+.container {
+  padding: 70px; }
+
+.container div a {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px; }
+
+.container div a img {
+  width: 300px; }
+
+.container div a p {
+  color: #969696; }
