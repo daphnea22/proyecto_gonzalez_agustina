@@ -188,3 +188,24 @@ a {
     align-items: stretch; }
   .mainreleases .variusart img {
     width: 300px; } }
+
+.main_artists section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.main_artists section article h2 {
+  color: #cacaca;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.main_artists section article img {
+  width: 400px;
+  padding: 20px;
+  margin: 30px; }
+
+@media (max-width: 800px) {
+  .main_artists section {
+    flex-direction: column;
+    align-items: center; } }
