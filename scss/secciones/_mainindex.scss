@@ -3,11 +3,25 @@
     flex-direction: column;
     align-items: center;
 
-    .logogrande{
+    img{
         width: 690px;
     }
 }
 
+
+@media (max-width: 400px){
+
+    .main_index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{
+            width: 350px;;
+        }
+    }
+    
+}
 
   
     
