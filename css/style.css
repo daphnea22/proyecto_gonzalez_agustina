@@ -80,29 +80,31 @@ a {
     .main_index img {
       width: 350px; } }
 
-.mainabout h1 {
-  color: #575555;
-  font-size: 40px;
-  text-align: left;
-  margin: 30px 130px 20px 130px; }
-
-.mainabout .ping {
-  color: #969696;
-  font-size: 25px;
-  text-align: justify;
-  padding: 70px;
-  margin: 50px; }
-  .mainabout .ping:hover {
-    color: white; }
-
-.mainabout .pesp {
-  color: #969696;
-  font-size: 25px;
-  text-align: justify;
-  padding: 70px;
-  margin: 50px; }
-  .mainabout .pesp:hover {
-    color: white; }
+.mainabout {
+  min-width: 80vh;
+  margin: 0 0 100px 0;
+  padding: 0 0 100px 0; }
+  .mainabout h1 {
+    color: #575555;
+    font-size: 40px;
+    text-align: left;
+    margin: 30px 130px 20px 130px; }
+  .mainabout .ping {
+    color: #969696;
+    font-size: 25px;
+    text-align: justify;
+    padding: 70px;
+    margin: 50px; }
+    .mainabout .ping:hover {
+      color: white; }
+  .mainabout .pesp {
+    color: #969696;
+    font-size: 25px;
+    text-align: justify;
+    padding: 70px;
+    margin: 50px; }
+    .mainabout .pesp:hover {
+      color: white; }
 
 @media (max-width: 600px) {
   .mainabout .ping {
@@ -123,7 +125,10 @@ a {
 .mainreleases {
   display: flex;
   flex-direction: column;
-  align-items: stretch; }
+  align-items: stretch;
+  min-width: 80vh;
+  margin: 0 0 100px 0;
+  padding: 0 0 100px 0; }
   .mainreleases h1 {
     color: #575555;
     font-size: 40px;
@@ -206,27 +211,28 @@ a {
     flex-direction: column;
     align-items: center; } }
 
-.main_artists h1 {
-  color: #575555;
-  font-size: 40px;
-  text-align: left;
-  margin: 30px 130px 20px 130px; }
-
-.main_artists section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.main_artists h2 {
-  color: #cacaca;
-  display: flex;
-  align-items: center;
-  justify-content: space-around; }
-
-.main_artists img {
-  width: 400px;
-  padding: 20px;
-  margin: 30px; }
+.main_artists {
+  min-width: 80vh;
+  margin: 0 0 100px 0;
+  padding: 0 0 100px 0; }
+  .main_artists h1 {
+    color: #575555;
+    font-size: 40px;
+    text-align: left;
+    margin: 30px 130px 20px 130px; }
+  .main_artists section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .main_artists h2 {
+    color: #cacaca;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .main_artists img {
+    width: 400px;
+    padding: 20px;
+    margin: 30px; }
 
 @media (max-width: 800px) {
   .main_artists section {
@@ -234,7 +240,10 @@ a {
     align-items: center; } }
 
 .main_shop {
-  border: solid black; }
+  border: solid black;
+  min-width: 80vh;
+  margin: 0 0 100px 0;
+  padding: 0 0 100px 0; }
   .main_shop h1 {
     color: #575555;
     font-size: 40px;
@@ -280,28 +289,40 @@ a {
   .main_shop .form_shop p {
     color: white; }
 
-footer {
-  width: 100vw; }
-  footer .redes_sociales {
-    border: solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; }
-    footer .redes_sociales h4 {
-      color: white; }
-  footer .section1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    border: solid white;
-    padding: 0 50px; }
-    footer .section1 li {
-      border: solid white; }
-    footer .section1 a {
-      border: solid white;
-      font-size: 20px;
-      text-align: left; }
-  footer .section2 h4 {
+.redes_sociales {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px; }
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 50px; }
+  .section1 h4 {
+    font-size: 40px;
+    margin: 40px 50px;
     color: white; }
-  footer .section2 p {
+  .section1 a {
+    margin: 20px;
+    font-size: 20px;
+    color: #6b6b6b; }
+    .section1 a:hover {
+      text-decoration: underline 1px; }
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 50px; }
+  .section2 h4 {
+    font-size: 40px;
+    margin: 40px 50px;
     color: white; }
+  .section2 p {
+    margin: 20px;
+    font-size: 20px;
+    color: #6b6b6b; }
+    .section2 p:hover {
+      text-decoration: underline 1px; }
