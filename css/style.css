@@ -60,9 +60,7 @@ a {
   .header4 nav {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column-reverse;
-    align-items: center; } }
+    flex-direction: row; } }
 
 .main_index {
   display: flex;
@@ -71,6 +69,8 @@ a {
   height: auto; }
   .main_index img {
     width: 600px; }
+  .main_index h1 {
+    color: black; }
 
 @media (max-width: 400px) {
   .main_index {
