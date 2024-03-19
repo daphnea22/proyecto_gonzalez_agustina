@@ -211,43 +211,6 @@ a {
     flex-direction: column;
     align-items: center; } }
 
-.main_artists {
-  min-width: 80vh;
-  margin: 0 0 100px 0;
-  padding: 0 0 100px 0;
-  border-color: solid white; }
-  .main_artists h1 {
-    border-color: solid white;
-    color: #575555;
-    font-size: 40px;
-    text-align: left;
-    margin: 30px 130px 20px 130px;
-    flex-direction: row-reverse;
-    align-items: stretch;
-    justify-content: space-evenly; }
-  .main_artists .sectionart {
-    border-color: solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 50px; }
-  .main_artists .alderaan {
-    display: flex; }
-  .main_artists h2 {
-    color: #cacaca;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
-  .main_artists img {
-    width: 400px;
-    padding: 20px;
-    margin: 30px; }
-
-@media (max-width: 800px) {
-  .main_artists section {
-    flex-direction: column;
-    align-items: center; } }
-
 .main_shop {
   background-color: black; }
   .main_shop h1 {
