@@ -211,6 +211,35 @@ a {
     flex-direction: column;
     align-items: center; } }
 
+.mainart {
+  height: auto;
+  margin-bottom: 50px; }
+
+h1 {
+  color: #575555;
+  font-size: 40px;
+  text-align: left;
+  margin: 30px 130px 20px 130px; }
+
+.sectionart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .sectionart .alderaan {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .sectionart .alderaan a {
+      width: auto; }
+    .sectionart .alderaan img {
+      display: flex;
+      width: 400px; }
+  .sectionart .alderaan h2 {
+    color: grey;
+    margin: 0 70px 0 0;
+    font-size: 25px; }
+
 .main_shop {
   background-color: black; }
   .main_shop h1 {
