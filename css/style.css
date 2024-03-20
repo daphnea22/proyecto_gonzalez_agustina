@@ -217,7 +217,7 @@ a {
 
 h1 {
   color: #575555;
-  font-size: 40px;
+  font-size: 60px;
   text-align: left;
   margin: 30px 130px 20px 130px; }
 
@@ -225,20 +225,33 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap; }
-  .sectionart .alderaan {
+  .sectionart .artistasdanza {
     margin: 50px;
+    padding: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
-    .sectionart .alderaan a {
-      width: auto; }
-    .sectionart .alderaan img {
+    justify-content: space-around; }
+    .sectionart .artistasdanza a {
+      display: flex;
+      align-items: stretch;
+      padding: 0;
+      margin: 0;
+      width: 400px; }
+    .sectionart .artistasdanza img {
       display: flex;
       width: 400px; }
-  .sectionart .alderaan h2 {
-    color: grey;
+  .sectionart .artistasdanza h2 {
+    color: #969696;
     margin: 0 70px 0 0;
     font-size: 25px; }
+    .sectionart .artistasdanza h2:hover {
+      color: #fffcfc; }
+
+@media (max-width: 800px) {
+  .artistasdanza {
+    display: flex;
+    align-items: center;
+    flex-direction: column; } }
 
 .main_shop {
   background-color: black; }
