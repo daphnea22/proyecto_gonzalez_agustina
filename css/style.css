@@ -56,11 +56,11 @@ a {
 .logochico {
   width: 150px; }
 
-@media (max-width: 949px) {
+@media (max-width: 800px) {
   .header4 nav {
     display: flex;
-    justify-content: center;
-    flex-direction: row; } }
+    flex-direction: column;
+    align-items: center; } }
 
 .main_index {
   display: flex;
@@ -209,7 +209,11 @@ a {
   .mainreleases .releases2019 {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .mainreleases .variusart {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; } }
 
 .mainart {
   height: auto;
@@ -330,7 +334,8 @@ h1 {
   .section1 a {
     margin: 20px;
     font-size: 20px;
-    color: #6b6b6b; }
+    color: #6b6b6b;
+    text-align: center; }
     .section1 a:hover {
       text-decoration: underline 1px; }
 
@@ -349,3 +354,11 @@ h1 {
     color: #6b6b6b; }
     .section2 p:hover {
       text-decoration: underline 1px; }
+
+@media (max-width: 949px) {
+  .redes_sociales {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 50px;
+    justify-content: center; } }

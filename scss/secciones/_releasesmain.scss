@@ -117,7 +117,7 @@
     font-size: 30px;
     text-align: center
 
-}
+} 
 
    .variusart {
     display: flex;
@@ -143,7 +143,13 @@
     .mainreleases .releases2019 {
         display: flex;
         flex-direction: column;
-    align-items: center;
+        align-items: center;
     }
+        .mainreleases .variusart {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        
+     }
+   }
 
-}

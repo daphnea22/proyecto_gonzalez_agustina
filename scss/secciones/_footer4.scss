@@ -39,11 +39,14 @@
             margin: 20px;
             font-size: 20px;
             color: $grisnav;
+            text-align: center;
             &:hover {
                 text-decoration: underline 1px;
 
             }
+            
         }
+    
        
         
     }
@@ -73,4 +76,14 @@
             }
         }
 
+    }
+
+    @media (max-width: 949px){
+        .redes_sociales {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            margin: 50px;
+            justify-content: center;
+        }
     }
