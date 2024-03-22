@@ -70,6 +70,7 @@ a {
   .main_index img {
     width: 600px; }
   .main_index h1 {
+    font-size: 15px;
     color: black; }
 
 @media (max-width: 400px) {
