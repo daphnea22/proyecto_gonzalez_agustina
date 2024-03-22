@@ -1,5 +1,6 @@
 .main_shop {
     background-color: black;
+    
 
     h1{
         color: $grish1;
@@ -36,7 +37,7 @@
  .form_shop {
     margin: 80px 0 0 0;   
     padding: 0 0 50px 0; 
-    font-size: 30px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -62,11 +63,18 @@
  }
     .form_shop p{
         color: white;
-     }
-
-    
-    
+     } 
  }
+
+
+ @media (max-width: 500px){
+    .main_shop h1 {
+        text-align: center;
+
+    }
+
+   
+}
  
  
  

@@ -59,3 +59,26 @@ h1{
   
    
    }}
+
+   @media (max-width: 500px) {
+      .sectionart .artistasdanza {
+         margin: auto;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         flex-direction: column;
+      }
+      
+      .sectionart .artistasdanza h2 {
+         margin: 0;
+         font-size: 16px;
+         padding: 5px;
+     }
+      .sectionart .artistasdanza a{
+         width: auto;
+      }
+      .sectionart .artistasdanza img{
+      width:200px;   
+      }
+
+   }
